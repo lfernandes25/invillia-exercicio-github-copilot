@@ -142,3 +142,33 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  padding: 4px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.participants-list li:last-child {
+  border-bottom: none;
+}
+
+.participant-icon {
+  margin-right: 8px;
+  font-size: 1.1em;
+}
+
+.participant-email {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.98em;
+  color: #333;
+}
